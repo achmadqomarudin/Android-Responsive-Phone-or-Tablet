@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.achmadqomarudin.njajalaplikasipart2.ui.AndroidMeActivity">
+
+    <LinearLayout
+        android:id="@+id/android_me_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/head_container"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerInside"/>
+
+        <!--dibawah ini njajal-->
+        <FrameLayout
+            android:id="@+id/body_container"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerInside"/>
+
+        <FrameLayout
+            android:id="@+id/leg_container"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+
+</ScrollView>
